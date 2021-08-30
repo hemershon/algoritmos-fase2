@@ -1,0 +1,40 @@
+PATH
+  remote: .
+  specs:
+    algortimos-fase2 (0.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    debase (2.3.2)
+      debase-ruby_core_source (~> 0.10.11)
+    debase-ruby_core_source (0.10.12)
+    diff-lcs (1.4.4)
+    rake (13.0.6)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.2)
+    ruby-debug-ide (2.3.1)
+      debase (~> 2.3.2)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  algortimos-fase2!
+  rake
+  rspec
+  ruby-debug-ide
+
+BUNDLED WITH
+   2.2.21
