@@ -41,5 +41,5 @@ class JumpSearch
     puts jump.to_i
   end
 end
-result - JumpSearch.new(array, number).search
+result = JumpSearch.new(array, number).search
 puts result
